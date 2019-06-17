@@ -1,0 +1,43 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+span {
+  /*background-color: rgba(17, 13, 13, 0.2);*/
+}
+.containerimg {
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+}
+.container {
+  margin: 15px auto 80px;
+  width: 600px;
+  height: 500px;
+  padding: 15px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+.submit {
+  padding: 15px;
+  outline: none;
+  background-color:rgba(218, 218, 218, 0.198);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  transition: all 0.3s;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+.content {
+  margin: 15px;
+}
+.input {
+  padding: 8px;
+  font-family: 'Lato', sans-serif;
+}
