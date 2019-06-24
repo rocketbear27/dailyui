@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+}
+.background {
+  filter: blur(5px);
+}
+.basicinfo {
+  position: absolute;
+  top: 50px;
+  left: 780px;
+}
+.basicinfo h1, h3 {
+  font-family: 'Teko', sans-serif;
+}
+.svg {
+  width: 40px;
+  margin: 10px;
+}
+.github {
+  fill: #181717;
+}
+.dribbble {
+  fill: #EA4C89;
+}
+.hashnode {
+  fill: #2962FF;
+}
+.discord {
+  fill: #7289DA;
+}
