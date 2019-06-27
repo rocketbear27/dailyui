@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #addeff;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  border-radius: 50px;
+  border: 5px black solid;
+  width: 500px;
+  height: 200px;
+  background-color: #49b6ff;
+  box-shadow: 12px 12px 2px 1px #00000033;
+  position: absolute;
+  top: 350px;
+  left: 500px;
+
+}
+img {
+  border: 2px darkgray solid;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  border-radius: 100px;
+}
+.playingnow {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+svg {
+  padding: 10px;
+}
+.controls {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#length {
+  width: 100%;
+  background-color: #e2e2e2;
+  margin-top: 15px;
+}
+
+#atpoint {
+  width: 50%;
+  height: 30px;
+  background-color:#00538a;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
