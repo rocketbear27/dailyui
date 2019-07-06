@@ -24,7 +24,8 @@ body {
 .rbpic {
   float: left;
   position: absolute;
-  top: 15px;
+  top: 10px;
+  left: 40px;
 }
 .left {
   float: left;
