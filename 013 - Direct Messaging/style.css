@@ -34,3 +34,38 @@ body {
 p{
   font-size: 10px;
 }
+.profile {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
+.button {
+  padding: 10px;
+  outline: none;
+  background-color:#ff4f4fd0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+.input {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+}
+.text {
+  padding: 15px;
+  font-family: 'Lato', sans-serif;
+  border: 1px #a8a8a8 solid;
+  border-radius: 50px;
+}
+.txtmsg {
+  position: absolute;
+}
+.txt1 {
+  bottom: 60px;
+}
