@@ -1,0 +1,1 @@
+Design a leaderboard. Is it for gaming, sports, politics, or something else? Consider the important statistics to show, percentages, points, profile pictures, etc.
