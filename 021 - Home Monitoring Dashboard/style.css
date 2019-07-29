@@ -1,0 +1,75 @@
+body {
+  background-color: #b6e3ff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+}
+h1 {
+  font-family: 'Fira Code', monospace;
+  background-color: #b6e3ff;
+}
+.container {
+  background-color: #fff;
+  box-shadow: 12px 12px 2px 1px#00000033;
+  border: 1px solid #b6e3ff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+.subcontainer {
+  border: 0.5px solid #808080;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+.profile {
+  float: left;
+}
+.profilepic {
+  border: 5px #ff5353 solid;
+  border-radius: 100px;
+}
+.time {
+  float: left;
+  height: 175px;
+  width: 150px;
+}
+.weather {
+  float: left;
+  height: 175px;
+  width: 150px;
+}
+.music {
+  float: left;
+  height: 175px;
+  width: 150px;
+}
+.build {
+  float: left;
+  height: 175px;
+  width: 300px;
+}
+.notif {
+  float: left;
+  height: 175px;
+  width: 375px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

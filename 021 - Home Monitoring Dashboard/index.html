@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Home Monitoring Dashboard</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code|Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="profile subcontainer">
+      <img src="./assets/rocketbear27.png" width="110px" class="profilepic">
+      <p>@rocketbear27</p>
+    </div>
+    <div class="time subcontainer">
+      <h1>Time</h1>
+      <h3 id="date">July 29, 2019</h3>
+      <h3 id="localtime">2:05 PM</h3>
+    </div>
+    <div class="weather subcontainer">
+      <h1>Weather</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 48 48"><title>ic_wb_sunny_36px</title>
+        <g fill="#ffd153">
+            <path d="M13.51 9.69L9.93 6.1 7.1 8.93l3.59 3.59 2.82-2.83zM8 21H2v4h6v-4zM26 1.1h-4V7h4V1.1zm14.9 7.83L38.07 6.1l-3.59 3.59 2.83 2.83 3.59-3.59zm-6.41 27.38l3.59 3.59 2.83-2.83-3.59-3.59-2.83 2.83zM40 21v4h6v-4h-6zM24 11c-6.63 0-12 5.37-12 12s5.37 12 12 12 12-5.37 12-12-5.37-12-12-12zm-2 33.9h4V39h-4v5.9zM7.1 37.07l2.83 2.83 3.59-3.59-2.83-2.83-3.59 3.59z"></path>
+        </g>
+    </svg>
+      <h3>80&#176; F</h3>
+    </div>
+    <div class="music subcontainer">
+        <iframe src="https://open.spotify.com/embed/playlist/6uyg4tsXaj5HlwZb4TyDXS" width="135" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="build subcontainer">
+      <h1>Repo Build</h1>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <th>rocketbear27.github.io</th>
+          <th><img src="https://api.travis-ci.org/rocketbear27/rocketbear27.github.io.svg?branch=master"></th>
+        </tr>
+      </table>
+    </div>
+    <div class="notif subcontainer">
+      <h1>Notifications</h1>
+      <em>None here yet!</em>
+    </div>
+  </div>
+</body>
+</html>
