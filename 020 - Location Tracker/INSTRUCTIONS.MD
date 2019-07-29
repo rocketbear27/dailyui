@@ -1,0 +1,1 @@
+Design a location tracker. Consider the icon, placement, and purpose of location. Mapping something? Is it a tracking beacon? Is the NSA tracking you? ok, maybe they are ;)
