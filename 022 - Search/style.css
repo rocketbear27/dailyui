@@ -1,0 +1,30 @@
+body {
+  background-color: #b6e3ff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+}
+.container {
+  background-color: #fff;
+  box-shadow: 12px 12px 2px 1px#00000033;
+  border: 1px solid #b6e3ff;
+  border-radius: 25px;
+  padding: 50px;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+.searchbar input {
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+button {
+  padding: 15px;
+  float: right;
+  border: 1px gray solid;
+  border-left: 1px transparent solid;
+  border-radius: 3px;
+  background-color: #fff;
+}
